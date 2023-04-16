@@ -1,0 +1,3 @@
+exportPattern("^[[:alpha:]]+")
+import(ThreeWay, MASS, stats,ggplot2)
+S3method(plot, t3pcovr)

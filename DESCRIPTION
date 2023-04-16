@@ -1,0 +1,11 @@
+Package: Tucker3PCovR
+Type: Package
+Title: Tucker3 Covariates Regression Model
+Version: 0.1.0
+Depends: R (>= 3.5.0), ThreeWay, MASS,stats,ggplot2
+Author: Elisa Frutos Bernal
+Maintainer: Elisa Frutos Bernal <efb@usal.es>
+Description: Tucker3-PCovR model reduces the predictors (the two-way matrix) to a few components and predict the criterion (the three-way array) by using these components as predictors at the same time that the three way data is fitted through the Tucker3 model 
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
